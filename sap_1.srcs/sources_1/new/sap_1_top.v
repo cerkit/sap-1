@@ -21,6 +21,7 @@
 
 
 module sap_1_top(input CLK100MHZ, output [15:0] LED);
-reg [15:0] data = 16'b1010101010101010;
-    binary_out b_out1(clk, data, LED);
+    wire [7:0] data1 = 8'hAA;
+    wire [7:0] data2 = 8'hBB;
+    binary_out b_out1(clk, data1, data2, LED);
 endmodule

@@ -20,8 +20,14 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module binary_out(input clk, input [15:0] data, output reg [15:0] LED);
+module binary_out(input clk, input [7:0] data1, input [7:0] data2, output reg [15:0] LED);
+    reg [15:0] result;
+    
+    always @* begin
+        result = { data1, data2};
+    end
+        
     always @(posedge clk) begin
-        LED <= data;
+        LED <= result;
     end
 endmodule
