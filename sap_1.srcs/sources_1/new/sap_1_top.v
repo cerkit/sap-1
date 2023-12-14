@@ -1,13 +1,13 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
+// Company: cerkit
+// Engineer: Michael Earls
 // 
 // Create Date: 12/12/2023 05:06:20 PM
-// Design Name: 
+// Design Name: SAP-1 Top Module
 // Module Name: sap_1_top
-// Project Name: 
-// Target Devices: 
+// Project Name: SAP-1
+// Target Devices: Digilent Nexys A7, Digilent Zybo Z7
 // Tool Versions: 
 // Description: 
 // 
