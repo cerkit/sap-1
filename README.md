@@ -14,3 +14,5 @@ I tried and tried to get my head around how the 8 digit 7-segment display works,
 I have been referring to a great project from people who know what they're doing:
 
 [SAP-1-Computer](https://karenok.github.io/SAP-1-Computer/)
+
+Follow along on [my blog](https://cerkit.com/post/sap-1-fpga/).
